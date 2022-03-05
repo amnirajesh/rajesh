@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\RAJESH J\eclipse-workspace\FullCourse\Full Course Details\.metadata\.plugins\org.eclipse.jdt.core
+4278728532.index
+880821469.index

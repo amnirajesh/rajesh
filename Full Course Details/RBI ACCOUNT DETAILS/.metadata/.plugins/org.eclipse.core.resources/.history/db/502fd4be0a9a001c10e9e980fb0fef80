@@ -1,0 +1,10 @@
+
+public class A {
+private void hi() {
+	char[] h = null;
+	System.out.println(h);
+
+}
+	
+
+}

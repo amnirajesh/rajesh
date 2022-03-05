@@ -1,0 +1,20 @@
+package testNG;
+
+import org.testng.annotations.Test;
+
+public class testNGFirst {
+	@Test
+	public void startCar() {
+	System.out.println(" Start the car");
+	}
+	@Test
+	private void firstGear() {
+System.out.println("First Gear");
+	}
+	@Test
+	private void secondGear() {
+System.out.println("secondGear");
+	}
+	
+
+}

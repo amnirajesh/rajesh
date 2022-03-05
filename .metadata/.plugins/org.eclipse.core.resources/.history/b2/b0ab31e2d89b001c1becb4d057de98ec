@@ -1,0 +1,5 @@
+package newprogramme;
+
+public @interface test {
+
+}

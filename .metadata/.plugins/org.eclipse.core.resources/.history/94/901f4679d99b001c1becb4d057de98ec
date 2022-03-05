@@ -1,0 +1,18 @@
+package newprogramme;
+
+public class SwitchCase {
+	
+	public static void main(String[] args) {
+		
+	 String days;
+		switch (days) {
+		case value: {
+			
+			yield type;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + key);
+		}
+	}
+
+}

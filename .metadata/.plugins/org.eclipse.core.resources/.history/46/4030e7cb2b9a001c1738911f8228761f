@@ -1,0 +1,11 @@
+package mavenpoject;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Rakshan {
+	private void ghj() {
+WebDriverManager.chromedriver().setup();
+	}
+	
+
+}

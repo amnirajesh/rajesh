@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-04T23:05:53 IST" name="Default suite" finished-at="2022-03-04T23:05:53 IST" duration-ms="52">
+    <groups>
+    </groups>
+    <test started-at="2022-03-04T23:05:53 IST" name="Default test" finished-at="2022-03-04T23:05:53 IST" duration-ms="52">
+      <class name="testNG.testNGdependOnMethod">
+        <test-method signature="highSchool()[pri:0, instance:testNG.testNGdependOnMethod@140c9f39]" started-at="2022-03-04T23:05:53 IST" name="highSchool" finished-at="2022-03-04T23:05:53 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highSchool -->
+        <test-method signature="highSecSchool()[pri:0, instance:testNG.testNGdependOnMethod@140c9f39]" started-at="2022-03-04T23:05:53 IST" name="highSecSchool" finished-at="2022-03-04T23:05:53 IST" depends-on-methods="testNG.testNGdependOnMethod.highSchool" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- highSecSchool -->
+        <test-method signature="engineering()[pri:0, instance:testNG.testNGdependOnMethod@140c9f39]" started-at="2022-03-04T23:05:53 IST" name="engineering" finished-at="2022-03-04T23:05:53 IST" depends-on-methods="testNG.testNGdependOnMethod.highSecSchool" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- engineering -->
+      </class> <!-- testNG.testNGdependOnMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

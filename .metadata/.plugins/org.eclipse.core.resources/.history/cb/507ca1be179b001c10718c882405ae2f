@@ -1,0 +1,10 @@
+package mavenpoject;
+
+import org.openqa.selenium.WebDriver;
+
+public class ExtentReport {
+	WebDriver driver;
+	
+	
+
+}

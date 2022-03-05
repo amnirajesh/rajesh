@@ -1,0 +1,22 @@
+package newprogramme;
+
+public class SwitchCase {
+	
+@test
+private void startCar() {
+	System.out.println("Start the car");
+
+}
+@test
+
+
+
+	
+	
+		
+		
+		
+		}
+	}
+}
+}

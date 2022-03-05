@@ -1,0 +1,26 @@
+package java.org.com;
+
+import java.util.Scanner;
+
+public class BasicProg {
+	
+	public static void main(String[] args) {
+//		123
+//		1x1x1+2X2x2+3X3X3
+		System.out.println("Enter the value to check");
+		Scanner scan=new Scanner(System.in);
+		int a = scan.nextInt();
+		
+		while(a>0) {
+			int c=0;
+			int b=a%10;
+			c=c+b*b*b;
+			a=a/10;	
+		
+	}
+	
+System.out.println(scan);
+	}
+	
+
+}

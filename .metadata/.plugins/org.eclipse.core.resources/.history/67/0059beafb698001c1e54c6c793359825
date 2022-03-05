@@ -1,0 +1,25 @@
+package selenium.org.com;
+
+import java.util.Scanner;
+
+public class PalindromProgramme {
+	
+	public static void main(String[] args) {
+//		123
+//		1x1x1+2X2x2+3X3X3
+		double a;
+		System.out.println("Enter the value to check");
+		Scanner input=new Scanner(System.in);
+		int aa = input.nextInt();
+		a=aa;
+		while(a>0) {
+			double c,b,d;
+			b=a%10;
+			c=0;
+			d=c+b*b*b;
+			c=d;
+			a=a/10;	
+		
+	}
+System.out.println();
+}}
